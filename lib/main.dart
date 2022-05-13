@@ -8,8 +8,7 @@ void main() async {
   //     "https://www.dropbox.com/s/e9crwcf9b4t1uyw/12%20Say%20It%20Ain%27t%20So.mp3?raw=1"));
   // await player.setAudioSource(audioSource);
   // await player.play();
-
-  await player.setAsset("audio/Say It Ain't So demo.mp3");
-  player.play();
-  return;
+  // await player.setAsset("Say It Ain't So demo.mp3");
+  await player.setAsset("nature.mp3");
+  // player.play();
 }
